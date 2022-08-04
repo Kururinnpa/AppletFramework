@@ -1,0 +1,20 @@
+{
+  "name": "patch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel dong.js index.js component.js logic.js -d ./dist && node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-react": "^7.16.7"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
